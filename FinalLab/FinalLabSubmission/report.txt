@@ -1,0 +1,26 @@
+Task 1:-
+0- Simply importing all the required libraries
+1- I first started by allowing user input for all the required information which was fairly straightforward
+2- I created a function to change all the colours at once but I faced a problem with the data types which was fixed directly by GenAI
+3- I created a simple function to invert if the user wants to invert which was simply just 255 - value
+4- Again a similar issue happened of the data type error which was again simply fixed by GenAI
+5- I applied all the functions one after the other
+6- I plotted each of them but I commented that out as it was not required
+7- Created a simple function to save the image then saved it with the required naming
+8- Fixed the calling of the py file as it is stated in the word file that the execution will be in the form of "python task1.py image1.png" so I accomadated for that by the help of generative AI
+9- Created the report function to summarize the changes made to the image and called it
+
+Task 2:-
+0- Simply importing all the required libraries
+1- I first started by allowing user input for all the required information which was fairly straightforward
+2- As I knew I will have to debug continuously I filled all the required information manually then commented that out later to allow for user input
+3- I used the help of GenAI to extract the required region of interest from the original image
+4- Then, I created a function to apply the chosen filter (blurring or sharpening) to the extracted region of interest
+5- Blurring was fairly straightforward as I just had to use filters.gaussian and I made sigma = 2 to make it more blurry for clarity
+6- Sharpening was a bit more complex as I had to use alot of different methods to find a suitable function, skimage was particularly unhelful in this regard so I had to use cv2 (with help of GenAI) to apply the sharpening filter
+7- I then called the function to apply the filter
+8- I switched the region from rgb to rgba to manipulate the alpha channel as it is responsible for transparency
+9- Then I created a copy of the image and changed the same region in the copy to the filtered region
+10- I then plotted the image to show the changes but I deleted that as it was not required
+11- I saved the image with the required naming
+12- Finally, Created the report function to summarize the changes made to the image and called it
